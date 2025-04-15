@@ -20,6 +20,7 @@ This project addresses the problem of tracking people from multiple synchronized
 5. The system displays all tracked people on a single, clean top-down layout
 
 ## Folder Structure
+<pre>
 project/
 ├── yolo_trackdown_1.py         # Main tracking and visualization script
 ├── train.py                    # Training script for posture classification (planned)
@@ -28,3 +29,4 @@ project/
 │   └── utils.py                # Utility functions for tracking
 ├── homographies/               # Numpy files for each camera’s homography matrix
 ├── videos/                     # Input video files (not included in this repo)
+</pre>
